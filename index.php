@@ -8,7 +8,7 @@
     }
 
     // Lấy dữ liệu sản phẩm từ tệp shoes.json
-    $jsonData = file_get_contents('shoes.json');
+    $jsonData = file_get_contents('./shoes.json');
     $products = json_decode($jsonData, true)['shoes'];
 
     // Xử lý khi người dùng thêm sản phẩm vào giỏ hàng
