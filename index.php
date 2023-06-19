@@ -50,5 +50,5 @@
             unset($_SESSION['cart'][$productId]);
         }
     }
-    include 'cart.html';
+    include './cart.html';
 ?>
