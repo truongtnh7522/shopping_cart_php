@@ -1,0 +1,16 @@
+{
+    "routes": [
+      {
+        "src": "/shoes.json",
+        "dest": "/shoes.json"
+      },
+      {
+        "src": "/cart",
+        "dest": "/cart.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.php"
+      }
+    ]
+  }
